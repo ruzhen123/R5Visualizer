@@ -1,4 +1,5 @@
 # R5Visualizer
+![R5Visualizer · Single-loop PWR overview](docs/images/overview.png)
 
 [简体中文](#简体中文) · [English](#english)
 
