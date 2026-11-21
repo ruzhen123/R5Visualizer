@@ -1,0 +1,30 @@
+name: "问题报告 / Bug report"
+description: "报告可以复现的问题 / Report a reproducible problem"
+title: "[Bug] "
+body:
+
+  - type: input
+    id: environment
+    attributes:
+      label: "软件版本和 Windows 版本 / R5Visualizer and Windows versions"
+      placeholder: "R5Visualizer v0.7.1, Windows 11 x64"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "复现步骤 / Steps to reproduce"
+      description: "说明打开的文件类型、所选阶段及操作顺序。 / Include the file type, selected stage, and actions taken."
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: "预期结果和实际结果 / Expected and actual behavior"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "错误信息或可公开的复现材料 / Errors or shareable reproduction files"
+      description: "可提供脱敏截图、日志片段或最小算例。 / Add a redacted screenshot, log excerpt, or minimal case if it can be shared."
