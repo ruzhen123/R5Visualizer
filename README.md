@@ -25,7 +25,7 @@ R5Visualizer 是一款面向 **RELAP5/MOD3.3** 的 Windows 后处理工具。打
 
 | 算例 | 附件 | 如何打开 |
 | --- | --- | --- |
-| 单环路 PWR 稳态 | `R5Visualizer-Example-PWR1-Steady.zip` | 通过 **文件 → 打开输入卡…** 打开 `PWR1_Steady_Visualizer_Annotated.i`，浏览拓扑并查看变量曲线。 |
+| 单环路 PWR 稳态 | `R5Visualizer-Example-PWR1-Steady.zip` | 通过 **文件 → 打开输入卡…** 打开 `PWR1_Steady.i`，浏览拓扑并查看变量曲线。 |
 | 主泵断电 | `R5Visualizer-Example-PWR1-Pump-Trip.zip` | 通过 **文件 → 打开项目 / 阶段关联…** 打开 `PWR1-Pump-Trip.r5project.json`。项目包含稳态父阶段与约 60 秒的主泵断电及停堆瞬态，可在时间轴旁切换阶段。 |
 
 ### 反馈
