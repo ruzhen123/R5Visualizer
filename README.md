@@ -56,7 +56,7 @@ Download the example ZIPs from **Assets** on the [v0.7.1 release page](../../rel
 
 | Example | Release asset | How to open |
 | --- | --- | --- |
-| Single-loop PWR steady state | `R5Visualizer-Example-PWR1-Steady.zip` | Choose **File → Open Input Deck…** (**文件 → 打开输入卡…**) and open `PWR1_Steady_Visualizer_Annotated.i` to explore the topology and plot time histories. |
+| Single-loop PWR steady state | `R5Visualizer-Example-PWR1-Steady.zip` | Choose **File → Open Input Deck…** (**文件 → 打开输入卡…**) and open `PWR1_Steady.i` to explore the topology and plot time histories. |
 | Main coolant pump trip | `R5Visualizer-Example-PWR1-Pump-Trip.zip` | Choose **File → Open Project / Stage Link…** (**文件 → 打开项目 / 阶段关联…**) and open `PWR1-Pump-Trip.r5project.json`. The project includes the parent steady-state run and an approximately 60-second transient with a pump trip and reactor scram. Use the selector next to the timeline to switch stages. |
 
 ### Feedback
